@@ -5,6 +5,9 @@ L.tileLayer('https://a.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
 }).addTo(map);
 
 
+var credits = L.control.attribution().addTo(map);
+credits.addAttribution('© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>');
+
 //define parks icon
 var parksIcon = L.icon({
     iconUrl: 'img/parkIcon.png',
