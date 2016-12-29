@@ -1,6 +1,6 @@
 var map = L.map('map').setView([40.68025, -74.00155], 13);
 
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/examples.map-i875mjb7/{z}/{x}/{y}.png', {
+L.tileLayer('https://a.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png', {
     maxZoom: 18
 }).addTo(map);
 
